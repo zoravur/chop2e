@@ -1,0 +1,16 @@
+[x] When playing an active sample (outside of a pattern), remember to interpolate highlight the boundary red
+[x] Debug why nirvana sample isn't playing
+[o] Pattern chaining
+  [x] Restart the pattern loop after the current pattern is completed instead of jumping immediately, to the next mod. in the loop.
+  [x] We should have a pull API for this -- if there's a new pattern loaded pattern, it should switch to using that.
+[x] Write mode (always write on current_pattern(state)) / currentInstrument, obviously defaulting to the first one if it's paused
+[x] BPM
+  [x] BPM Button (assign color)
+  [x] Once color is assigned, always show the n'th beat by coloring something (could be only in write mode, or perhaps global) -- perhaps halo effect is necessary.
+  [ ] Some jank when switching BPMs. 
+[ ] Synth / melodic mode? shepard tone effect: https://github.com/schellingb/TinySoundFont
+[ ] Color precedence is a bit weird -- especially in exceptional cases. For instance, you should always be able to tell when a note is selected in color mode.
+[ ] Sample Library? (though only 16 at a time. it's just annoying to always have to keep swapping out samples when I should be creating a library of them).
+[ ] Global settings should be along right side for right pinky.
+[ ] Add command menu with '/' key. It should bring up a small menu along the bottom, where you can do various workflow related items, like saving a song to disk, importing a song, etc.
+[ ] Color precedence is a bit weird -- especially in exceptional cases. For instance, you should always be able to tell when a note is selected in color mode.
