@@ -17,4 +17,4 @@ There is a Makefile. Just run `make` in the root directory (you might have to cr
 
 Here's a video of a song (with the sampling copied from Kanye West's Power) that I made using the sample pad.
 
-TODO(add video)
+[https://www.youtube.com/watch?v=FGi6mHvIGxc](https://www.youtube.com/watch?v=FGi6mHvIGxc)
